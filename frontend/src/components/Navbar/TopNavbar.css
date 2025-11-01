@@ -1,0 +1,35 @@
+#navbar1 {
+  transition: transform 0.3s ease;
+  z-index: 1031;
+}
+
+.navbar-custom {
+  background-color: var(--color-primary);
+  height: 35px;
+  font-size: 0.95rem;
+  color: var(--white);
+  border-bottom: 1px solid var(--color-muted);
+  box-shadow: 0 1px 4px rgba(23, 102, 163, 0.04);
+  letter-spacing: 0.03em;
+}
+
+#navbar1.navbar-custom {
+  background-color: var(--color-primary) !important;
+}
+
+.link-white-hover {
+  color: var(--white);
+  text-decoration: none;
+  transition: color 0.2s;
+  font-weight: 500;
+  padding: 0 8px;
+  display: inline-block;
+}
+
+.link-white-hover:hover,
+.link-white-hover:focus {
+  color: var(--color-muted);
+  text-decoration: underline;
+  background: rgba(255,255,255,0.07);
+  border-radius: var(--radius);
+}

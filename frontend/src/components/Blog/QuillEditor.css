@@ -1,0 +1,4 @@
+.ql-container { min-height: 220px; }
+.ql-editor { min-height: 200px; }
+.ql-toolbar.ql-snow { border-radius: 6px 6px 0 0; }
+.ql-container.ql-snow { border-radius: 0 0 6px 6px; }

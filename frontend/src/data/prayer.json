@@ -1,0 +1,44 @@
+{
+  "East": {
+    "January": { "am": "06:48AM", "pm": "05:24PM" },
+    "February": { "am": "06:34AM", "pm": "05:47PM" },
+    "March": { "am": "06:04AM", "pm": "06:05PM" },
+    "April": { "am": "05:31AM", "pm": "06:22PM" },
+    "May": { "am": "06:07AM", "pm": "06:40PM" },
+    "June": { "am": "05:01AM", "pm": "06:54PM" },
+    "July": { "am": "05:11AM", "pm": "06:54PM" },
+    "August": { "am": "05:27AM", "pm": "06:34PM" },
+    "September": { "am": "05:42AM", "pm": "06:01PM" },
+    "October": { "am": "05:58AM", "pm": "05:27PM" },
+    "November": { "am": "06:19AM", "pm": "05:05PM" },
+    "December": { "am": "06:41AM", "pm": "05:04PM" }
+  },
+  "West": {
+    "January": { "am": "07:11AM", "pm": "05:44PM" },
+    "February": { "am": "06:56AM", "pm": "06:08PM" },
+    "March": { "am": "06:26AM", "pm": "06:27PM" },
+    "April": { "am": "05:52AM", "pm": "06:44PM" },
+    "May": { "am": "05:27AM", "pm": "07:03PM" },
+    "June": { "am": "05:21AM", "pm": "07:17PM" },
+    "July": { "am": "05:31AM", "pm": "07:17PM" },
+    "August": { "am": "05:48AM", "pm": "06:57PM" },
+    "September": { "am": "06:04AM", "pm": "06:23PM" },
+    "October": { "am": "06:20AM", "pm": "05:49PM" },
+    "November": { "am": "06:42AM", "pm": "05:25PM" },
+    "December": { "am": "07:04AM", "pm": "05:24PM" }
+  },
+  "Central": {
+    "January": { "am": "07:00AM", "pm": "05:34PM" },
+    "February": { "am": "06:45AM", "pm": "05:57PM" },
+    "March": { "am": "06:15AM", "pm": "06:16PM" },
+    "April": { "am": "05:42AM", "pm": "06:33PM" },
+    "May": { "am": "05:17AM", "pm": "06:51PM" },
+    "June": { "am": "05:11AM", "pm": "07:06PM" },
+    "July": { "am": "05:21AM", "pm": "07:06PM" },
+    "August": { "am": "05:38AM", "pm": "06:45PM" },
+    "September": { "am": "05:53AM", "pm": "06:12PM" },
+    "October": { "am": "06:09AM", "pm": "05:38PM" },
+    "November": { "am": "06:31AM", "pm": "05:15PM" },
+    "December": { "am": "06:52AM", "pm": "05:14PM" }
+  }
+}

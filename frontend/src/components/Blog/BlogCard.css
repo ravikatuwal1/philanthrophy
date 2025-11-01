@@ -1,0 +1,125 @@
+
+
+/* Masonry grid layout */
+.blog-masonry {
+  column-count: 3;
+  column-gap: 1rem;
+  padding: 1rem;
+}
+
+@media (max-width: 1024px) {
+  .blog-masonry {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 700px) {
+  .blog-masonry {
+    column-count: 1;
+  }
+}
+
+/* Card styling */
+.blog-card {
+  background: var(--color-secondary);
+  border-radius: var(--radius);
+  display: inline-block;
+  margin: 0 0 1rem;
+  overflow: hidden;
+  width: 100%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  border: 1px solid var(--color-muted);
+  break-inside: avoid;
+  cursor: pointer;
+}
+
+.blog-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  border-color: var(--color-primary-600);
+}
+
+/* Image section */
+.blog-card-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-bottom: 1px solid var(--color-muted);
+}
+
+/* Card content */
+.blog-card-content {
+  padding: 1rem 1.25rem 1.25rem;
+}
+
+.blog-card-title {
+  color: var(--color-heading);
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  line-height: 1.3;
+  letter-spacing: -0.4px;
+}
+
+.blog-card-summary {
+  color: var(--text);
+  line-height: 1.6;
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
+}
+
+.blog-card-date {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.blog-card-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--color-muted);
+}
+
+/* Read More link */
+.blog-card-link {
+  color: var(--color-primary);
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  transition: color 0.2s ease;
+}
+
+.blog-card-link:hover {
+  color: var(--color-primary-600);
+}
+
+.blog-card-link-arrow {
+  transition: transform 0.2s ease;
+}
+
+.blog-card-link:hover .blog-card-link-arrow {
+  transform: translateX(4px);
+}
+
+/* Like button styling */
+.blog-card-actions .like-button {
+  background: transparent;
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  padding: 0.35rem 0.7rem;
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.blog-card-actions .like-button:hover {
+  background: var(--color-primary);
+  color: var(--white);
+}

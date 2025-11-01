@@ -1,0 +1,141 @@
+
+
+    /* Palette */
+:root {
+  --pr-sky: 56 189 248;     /* sky-400 */
+  --pr-text: #334155;       /* slate-700 */
+  --pr-muted: #6b7280;      /* gray-500 */
+  --pr-zone: #c9931a;       /* gold for zone title */
+  --pr-card-bg: #f7f9fc;    /* soft tile bg */
+  --pr-ring: 99 102 241;    /* indigo-ish focus ring */
+}
+
+/* New zone section container */
+.prayer-zone {
+  max-width: 1200px;
+  margin: 25px auto;
+  background: #f4f6fb;
+  border: 1px solid #e7edf7;
+  border-radius: 12px;
+  padding: 22px;
+}
+
+.prayer-title {
+  color: #4b2e83;
+}
+
+/* Zone selector row */
+.zone-bar .zone-label {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: rgb(var(--pr-sky));
+  font-weight: 800;
+}
+
+.zone-select {
+  max-width: 260px;
+  box-shadow: none;
+}
+
+/* Selected zone name + locations */
+.zone-title {
+  font-size: clamp(28px, 5vw, 44px);
+  font-weight: 800;
+  color: var(--pr-zone);
+  line-height: 1.1;
+}
+
+.zone-locations {
+  color: var(--pr-muted);
+  margin-top: 6px;
+}
+
+/* Month tiles grid */
+.month-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+/* Non-hex tile: soft "squircle" */
+.month-card {
+  background: var(--pr-card-bg);
+  border: 1px solid #e7edf7;
+  border-radius: 18px;
+  padding: 16px 16px 14px;
+  color: var(--pr-text);
+  box-shadow: inset 0 0 0 3px #ffffff;
+  transition: transform 140ms ease, box-shadow 140ms ease, border-color 140ms ease;
+}
+
+.month-card:hover {
+  transform: translateY(-2px);
+  border-color: rgb(var(--pr-sky) / 0.28);
+  box-shadow:
+    inset 0 0 0 3px #fff,
+    0 8px 20px rgba(0,0,0,0.06);
+}
+
+.month-name {
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 800;
+  color: rgb(var(--pr-sky));
+  margin-bottom: 10px;
+}
+
+/* Time rows */
+.time-row {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 10px;
+  margin: 8px 0;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #fff;
+  border: 1px solid #e6ecf5;
+  color: var(--pr-muted);
+}
+
+.chip.am i { color: #f59e0b; }   /* sun */
+.chip.pm i { color: #64748b; }   /* moon */
+
+.time-val {
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+/* Existing container from your page (flattened, no glow) */
+.prayer-container {
+  max-width: 1200px;
+  margin: 25px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #e6e6e6;
+  box-shadow: none;
+}
+
+/* Video iframe wrapper (kept from your layout) */
+.video-card .video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.video-card .video-wrapper iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+

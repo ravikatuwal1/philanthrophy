@@ -1,0 +1,73 @@
+/* Carousel styling */
+.car-glow {
+  position: relative;
+  padding-bottom: 20px; /* space for glow */
+}
+
+.car-glow::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 10px;
+  box-shadow: 0 0 20px rgba(0,153,255,0.8), 0 0 40px rgba(0,153,255,0.6);
+  border-radius: 2px;
+}
+
+.carousel-container {
+    margin-top: 55px; /* Optional: extra space if needed */
+    margin-bottom: 30px;
+    overflow: hidden;
+    
+    
+}
+
+.carousel-image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-image-container img,
+.carousel-item img {
+    width: 100%;
+    height: auto; /* Unified height */
+    object-fit: cover;
+    display: block;
+    box-shadow: 0 4px 10px rgba(169, 0, 0, 0.3);
+    transition: transform 0.4s ease-in-out;
+}
+
+.carousel-image-container:hover img {
+    transform: scale(1.07); /* Slight zoom */
+}
+.carousel-item {
+    min-height: 250px;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(169, 169, 169, 0.9);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* To make the Sri Sri Boroma container appear stepped back vertically */
+.boroma-back-container {
+    position: relative;
+    bottom: 20px; /* Move Boroma container slightly downwards to give the stepped-back look */
+}
+    /* To make the Sri Sri Boroma container appear stepped back vertically */
+.borda-back-container {
+    position: relative;
+    bottom: 25px; /* Move Boroma container slightly downwards to give the stepped-back look */
+}
+    /* To make the Sri Sri Boroma container appear stepped back vertically */
+.acharyadev-back-container {
+    position: relative;
+    bottom: 30px; /* Move Boroma container slightly downwards to give the stepped-back look */
+}

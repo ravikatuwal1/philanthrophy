@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Sree Sree Barama’s 55th Tirodhan Divas",
+    "date": "2025-05-10",
+    "days": 1,
+    "location": "",
+    "image": "boroma_1.png"
+  },
+  {
+    "id": 2,
+    "title": "Sree Sree Barama’s 55th Tirodhan Tithi (Havishyanna)",
+    "date": "2025-05-12",
+    "days": 1,
+    "location": "",
+    "image": "boroma_1.png"
+  },
+  {
+    "id": 3,
+    "title": "Sree Sree Thakur’s Snan-Utsav",
+    "date": "2025-05-27",
+    "days": 1,
+    "location": "Satsang Ashram, Deoghar & Localized",
+    "image": "thakur_1.png"
+  },
+  {
+    "id": 4,
+    "title": "Sree Sree Pradhan Acharyadeva’s 58th Janma Tithi",
+    "date": "2025-06-07",
+    "days": 1,
+    "location": "Satsang Ashram, Deoghar",
+    "image": "borda_1.png"
+  },
+  {
+    "id": 5,
+    "title": "Sree Sree Pradhan Acharyadeva’s 58th Janma Divas",
+    "date": "2025-06-08",
+    "days": 1,
+    "location": "Satsang Ashram, Deoghar",
+    "image": "borda_1.png"
+  },
+  {
+    "id": 6,
+    "title": "Sree Sree Pradhan Acharyadeva’s 58th Janma – Mahotsav & 340th Satsang Ritwik Conference",
+    "date": "2025-07-12",
+    "days": 2,
+    "location": "Satsang Ashram, Deoghar",
+    "image": "borda_1.png"
+  },
+  {
+    "id": 7,
+    "title": "Sree Sree Barama’s 132nd Janma Tithi Utsav",
+    "date": "2025-07-22",
+    "days": 1,
+    "location": "Satsang Ashram, Deoghar",
+    "image": "boroma_1.png"
+  },
+  {
+    "id": 8,
+    "title": "Sree Sree Thakur’s 138th Avirbhav Divas",
+    "date": "2025-09-16",
+    "days": 1,
+    "location": "Satsang Ashram, Deoghar",
+    "image": "thakur_1.png"
+  },
+  {
+    "id": 9,
+    "title": "Sree Sree Borda’s 115th Janma Mahotsav and 332nd Satsang Ritwik Conference",
+    "date": "2025-12-31",
+    "days": 2,
+    "location": "Satsang Ashram, Deoghar",
+    "image": "borda_1.png"
+  }
+]

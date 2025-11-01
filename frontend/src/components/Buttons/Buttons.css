@@ -1,0 +1,76 @@
+/* ==========================================================================
+   Themed Bootstrap Button Overrides
+   ========================================================================== */
+
+/* --- Base Button Styles --- */
+.btn {
+  /* Use the theme's border-radius and add a transition for smooth hovers */
+  border-radius: var(--radius);
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  font-weight: 600;
+  padding: 0.6rem 1.25rem; /* A slightly more modern padding */
+  border: 2px solid transparent; /* Set a transparent border to prevent size shifts on hover for outline buttons */
+}
+
+/* --- Primary Button (Solid) --- */
+/* Your main call-to-action button */
+.btn-primary {
+  color: var(--white);
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.active {
+  color: var(--white);
+  background-color: var(--color-primary-600); /* Use the lighter blue for hover */
+  border-color: var(--color-primary-600);
+}
+
+/* Custom focus ring that matches the theme */
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.25rem rgba(23, 102, 163, 0.5); /* RGB of --color-primary */
+}
+
+
+/* --- Outline Primary Button --- */
+/* For secondary actions */
+.btn-outline-primary {
+  color: var(--color-primary);
+  background-color: transparent;
+  border-color: var(--color-primary);
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary.active {
+  color: var(--white);
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.btn-outline-primary:focus {
+  box-shadow: 0 0 0 0.25rem rgba(23, 102, 163, 0.5); /* RGB of --color-primary */
+}
+
+
+/* --- Secondary/Dark Button (Optional, but useful) --- */
+/* Good for alternative actions, uses your heading color */
+.btn-secondary {
+  color: var(--white);
+  background-color: var(--color-heading);
+  border-color: var(--color-heading);
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary.active {
+  color: var(--white);
+  background-color: #245c85; /* A manually lightened version of --color-heading */
+  border-color: #245c85;
+}
+
+.btn-secondary:focus {
+  box-shadow: 0 0 0 0.25rem rgba(20, 61, 89, 0.5); /* RGB of --color-heading */
+}

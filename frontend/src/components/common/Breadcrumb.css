@@ -1,0 +1,36 @@
+
+.custom-breadcrumb-nav {
+
+top: var(--header-height); /* sit just below the fixed navbar */
+z-index: 1020; /* below Bootstrap fixed-top (1030), above content */
+padding: 8px 0;/* subtle line */
+margin-top: 30px;
+}
+
+.breadcrumb {
+  background: none;
+  font-size: 1rem;
+  color: var(--color-muted);
+  --bs-breadcrumb-divider: '›';
+  --bs-breadcrumb-divider-color: var(--color-muted);
+  --bs-breadcrumb-item-active-color: var(--color-heading);
+  margin: 0;
+  padding: 0;
+}
+.breadcrumb-item a {
+  color: var(--color-primary);
+  font-weight: 500;
+}
+.breadcrumb-item a:hover {
+  color: var(--color-primary-600);
+}
+.breadcrumb-item.active {
+  color: var(--color-heading);
+  font-weight: 600;
+}
+.breadcrumb .bi-house-door {
+  font-size: 1.1em;
+  margin-right: 0.2em;
+  color: var(--color-primary);
+  vertical-align: -0.1em;
+}

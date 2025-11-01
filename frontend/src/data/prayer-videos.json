@@ -1,0 +1,9 @@
+{
+  "title": "Congregational Prayer Format",
+  "videos": [
+    { "id": "morning", "title": "Morning Prayer", "youtubeId": "KUVEpk7D7Ec", "start": 0, "order": 1 },
+    { "id": "evening", "title": "Evening Prayer", "youtubeId": "0NdzP8gPPx8", "start": 0, "order": 2 },
+    { "id": "kirtan", "title": "Jay Radhe Kirton", "youtubeId": "OEEQGhqWHeg", "start": 0, "order": 3 }
+  ],
+  "updatedAt": "2025-01-01T00:00:00Z"
+}

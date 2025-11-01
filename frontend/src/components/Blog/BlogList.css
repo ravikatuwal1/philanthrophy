@@ -1,0 +1,89 @@
+.blog-container {
+    max-width: var(--max-width);
+    margin: 25px auto;
+    background-color: var(--white);
+    padding: 32px 24px 48px 24px; /* more bottom padding */
+    border-radius: var(--radius);
+   
+    box-shadow: 0 2px 8px rgba(23, 102, 163, 0.06);
+}
+
+/* Only style h2 inside blog container, so it doesn't affect global h2 */
+.blog-container h2 {
+    color: var(--color-heading);
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    margin-bottom: 2.2rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.blog-container .btn,
+.blog-container button {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Blog card improvements */
+.blog-container .card {
+    border-radius: calc(var(--radius) + 4px);
+    border: 1px solid var(--color-muted);
+    box-shadow: 0 2px 8px rgba(23, 102, 163, 0.06);
+    transition: transform 0.18s, box-shadow 0.18s;
+    background: var(--white);
+}
+
+.blog-container .card:hover {
+    transform: translateY(-4px) scale(1.025);
+    box-shadow: 0 8px 24px rgba(23, 102, 163, 0.13);
+    border-color: var(--color-primary-600);
+}
+
+.blog-container .card-title {
+    color: var(--color-primary);
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.blog-container .card-text {
+    color: var(--text);
+    font-size: 1rem;
+}
+
+.blog-container .text-muted {
+    color: var(--text-muted) !important;
+}
+
+.blog-container .btn-outline-primary {
+    color: var(--color-primary);
+    border-color: var(--color-primary);
+    background: transparent;
+    transition: background 0.18s, color 0.18s, border-color 0.18s;
+}
+
+.blog-container .btn-outline-primary:hover,
+.blog-container .btn-outline-primary:focus {
+    background: var(--color-primary);
+    color: var(--white);
+    border-color: var(--color-primary-600);
+}
+
+.blog-container .btn-outline-secondary {
+    color: var(--color-heading);
+    border-color: var(--color-muted);
+    background: transparent;
+    transition: background 0.18s, color 0.18s, border-color 0.18s;
+}
+
+.blog-container .btn-outline-secondary:hover,
+.blog-container .btn-outline-secondary:focus {
+    background: var(--color-muted);
+    color: var(--color-heading);
+    border-color: var(--color-primary-600);
+}
+
+/* Pagination gap and alignment */
+.blog-container .d-flex.gap-2 {
+    gap: 0.75rem !important;
+}

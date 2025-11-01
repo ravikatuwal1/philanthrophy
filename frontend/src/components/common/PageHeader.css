@@ -1,0 +1,21 @@
+.page-header {
+  background: linear-gradient(180deg, #f6f8fc 0%, #ffffff 100%);
+  border-bottom: 1px solid #eef1f6;
+  padding: 22px 0;
+}
+.page-title {
+  margin: 0;
+  font-size: clamp(22px, 3.2vw, 32px);
+  font-weight: 800;
+  color: #2b2f3a;
+}
+.page-subtitle {
+  margin: 6px 0 0;
+  color: #6b7280;
+}
+.breadcrumb {
+  --bs-breadcrumb-divider-color: #9aa4b2;
+  --bs-breadcrumb-item-active-color: #4b5563;
+  margin: 0;
+}
+.breadcrumb a { text-decoration: none; }

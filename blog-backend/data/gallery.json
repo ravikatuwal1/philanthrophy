@@ -1,0 +1,279 @@
+{
+  "events": [
+    {
+      "id": "biratnagar-utsav",
+      "title": "Sri Sri Thakur Utsav, Biratnagar",
+      "description": "Moments from the grand celebration held at Satsang Biratnagar.",
+      "date": "2023-08-15",
+      "cover": "/images/biratnagar/frontpage.jpg",
+      "images": [
+        "/images/biratnagar/frontpage.jpg",
+        "/images/biratnagar/sri-sri-thakur-anukulchandra-utsav-biratnagar.jpg",
+        "/images/biratnagar/sri-sri-thakur-anukulchandra-utsav-biratnagar-1.jpg",
+        "/images/biratnagar/sri-sri-thakur-anukulchandra-utsav-biratnagar-2.jpg"
+      ]
+    },
+    {
+      "id": "shovayatra",
+      "title": "Sri Sri Thakur Shova Yatra",
+      "description": "Glimpses from the Shova Yatra procession at Biratnagar.",
+      "date": "2023-05-01",
+      "cover": "/images/biratnagar/sri-sri-thakur-anukulchandra-shova-yatra-biratnagar.jpg",
+      "images": [
+        "/images/biratnagar/sri-sri-thakur-anukulchandra-shova-yatra-biratnagar.jpg",
+        "/images/biratnagar/sri-sri-thakur-anukulchandra-kirtan.jpg"
+      ]
+    },
+    {
+      "id": "cultural-meet-june-2023",
+      "title": "Cultural Meet – June 2023",
+      "description": "A joyful cultural gathering celebrating togetherness.",
+      "date": "2023-06-20",
+      "cover": "/images/biratnagar/sri-sri-thakur-anukulchandra-utsav-biratnagar.jpg",
+      "images": [
+        "/images/biratnagar/frontpage.jpg",
+        "/images/biratnagar/sri-sri-thakur-anukulchandra-utsav-biratnagar.jpg"
+      ]
+    },
+    {
+      "id": "service-camp-july-2023",
+      "title": "Service Camp – July 2023",
+      "description": "Volunteers gathered for a week of social service and devotion.",
+      "date": "2023-07-10",
+      "cover": "/images/biratnagar/frontpage.jpg",
+      "images": [
+        "/images/biratnagar/frontpage.jpg",
+        "/images/biratnagar/sri-sri-thakur-anukulchandra-utsav-biratnagar-1.jpg"
+      ]
+    },
+    {
+      "id": "teachers-day-2023",
+      "title": "Teacher’s Day Celebration 2023",
+      "description": "Honouring the guides and mentors of Satsang Biratnagar.",
+      "date": "2023-09-05",
+      "cover": "/images/biratnagar/sri-sri-thakur-anukulchandra-shova-yatra-biratnagar.jpg",
+      "images": [
+        "/images/biratnagar/frontpage.jpg"
+      ]
+    },
+    {
+      "id": "autumn-satsang-2023",
+      "title": "Autumn Satsang 2023",
+      "description": "Devotees assembled for soulful prayers and bhajans.",
+      "date": "2023-10-18",
+      "cover": "/images/biratnagar/frontpage.jpg",
+      "images": [
+        "/images/biratnagar/frontpage.jpg",
+        "/images/biratnagar/sri-sri-thakur-anukulchandra-utsav-biratnagar-2.jpg"
+      ]
+    },
+    {
+      "id": "winter-charity-2023",
+      "title": "Winter Charity Drive 2023",
+      "description": "Distribution of warm clothes to the needy organized by youth volunteers.",
+      "date": "2023-12-10",
+      "cover": "/images/biratnagar/sri-sri-thakur-anukulchandra-utsav-biratnagar.jpg",
+      "images": [
+        "/images/biratnagar/frontpage.jpg"
+      ]
+    },
+    {
+      "id": "newyear-gathering-2024",
+      "title": "New Year Gathering 2024",
+      "description": "Welcoming the new year with hope and collective prayer.",
+      "date": "2024-01-01",
+      "cover": "/images/biratnagar/frontpage.jpg",
+      "images": [
+        "/images/biratnagar/frontpage.jpg"
+      ]
+    },
+    {
+      "id": "youth-conference-2024",
+      "title": "Youth Conference 2024",
+      "description": "Young minds discussing faith and service inspirations.",
+      "date": "2024-02-14",
+      "cover": "/images/biratnagar/sri-sri-thakur-anukulchandra-shova-yatra-biratnagar.jpg",
+      "images": [
+        "/images/biratnagar/sri-sri-thakur-anukulchandra-kirtan.jpg"
+      ]
+    },
+    {
+      "id": "holi-celebration-2024",
+      "title": "Holi Celebration 2024",
+      "description": "Colors, devotion and joy marked this year’s festival of colors.",
+      "date": "2024-03-24",
+      "cover": "/images/biratnagar/frontpage.jpg",
+      "images": [
+        "/images/biratnagar/sri-sri-thakur-anukulchandra-utsav-biratnagar-1.jpg"
+      ]
+    },
+    {
+      "id": "chaitra-satsang-2024",
+      "title": "Chaitra Satsang 2024",
+      "description": "Satsang devoted to introspection and renewal.",
+      "date": "2024-04-10",
+      "cover": "/images/biratnagar/frontpage.jpg",
+      "images": ["/images/biratnagar/frontpage.jpg"]
+    },
+    {
+      "id": "medical-camp-2024",
+      "title": "Free Medical Camp 2024",
+      "description": "Health camp organized for devotees and neighbors.",
+      "date": "2024-05-09",
+      "cover": "/images/biratnagar/sri-sri-thakur-anukulchandra-utsav-biratnagar-2.jpg",
+      "images": ["/images/biratnagar/frontpage.jpg"]
+    },
+    {
+      "id": "rainy-season-prayer-2024",
+      "title": "Rainy Season Prayer Meet 2024",
+      "description": "Collective prayer for prosperity and good harvest.",
+      "date": "2024-06-21",
+      "cover": "/images/biratnagar/frontpage.jpg",
+      "images": ["/images/biratnagar/frontpage.jpg"]
+    },
+    {
+      "id": "guru-purnima-2024",
+      "title": "Guru Purnima Celebration 2024",
+      "description": "Devotees expressed love and gratitude to the Master.",
+      "date": "2024-07-21",
+      "cover": "/images/biratnagar/sri-sri-thakur-anukulchandra-shova-yatra-biratnagar.jpg",
+      "images": ["/images/biratnagar/frontpage.jpg"]
+    },
+    {
+      "id": "independence-day-2024",
+      "title": "Independence Day Special Program 2024",
+      "description": "Flag hoisting followed by bhajan session.",
+      "date": "2024-08-15",
+      "cover": "/images/biratnagar/frontpage.jpg",
+      "images": ["/images/biratnagar/frontpage.jpg"]
+    },
+    {
+      "id": "janmastami-2024",
+      "title": "Janmastami Celebration 2024",
+      "description": "Evening of devotion and kirtan on the birth of Lord Krishna.",
+      "date": "2024-09-06",
+      "cover": "/images/biratnagar/sri-sri-thakur-anukulchandra-utsav-biratnagar.jpg",
+      "images": ["/images/biratnagar/frontpage.jpg"]
+    },
+    {
+      "id": "autumn-utsav-2024",
+      "title": "Autumn Utsav 2024",
+      "description": "The annual autumn get‑together of devotees.",
+      "date": "2024-10-10",
+      "cover": "/images/biratnagar/frontpage.jpg",
+      "images": ["/images/biratnagar/frontpage.jpg"]
+    },
+    {
+      "id": "service-week-nov-2024",
+      "title": "Service Week – November 2024",
+      "description": "Week‑long volunteer activities around Biratnagar.",
+      "date": "2024-11-18",
+      "cover": "/images/biratnagar/frontpage.jpg",
+      "images": ["/images/biratnagar/frontpage.jpg"]
+    },
+    {
+      "id": "winter meditation 2024",
+      "title": "Winter Meditation Retreat 2024",
+      "description": "A quiet retreat to rejuvenate body and mind.",
+      "date": "2024-12-28",
+      "cover": "/images/biratnagar/frontpage.jpg",
+      "images": ["/images/biratnagar/frontpage.jpg"]
+    },
+    {
+      "id": "newyear-2025",
+      "title": "New Year Celebration 2025",
+      "description": "Ring in 2025 with prayers and good intent.",
+      "date": "2025-01-01",
+      "cover": "/images/biratnagar/frontpage.jpg",
+      "images": ["/images/biratnagar/frontpage.jpg"]
+    },
+    {
+      "id": "youth-day-2025",
+      "title": "National Youth Day Observance 2025",
+      "description": "Youth devotees organized awareness sessions.",
+      "date": "2025-01-12",
+      "cover": "/images/biratnagar/sri-sri-thakur-anukulchandra-shova-yatra-biratnagar.jpg",
+      "images": ["/images/biratnagar/frontpage.jpg"]
+    },
+    {
+      "id": "spring-satsang-2025",
+      "title": "Spring Satsang 2025",
+      "description": "Spring‑time congregation filled with melody and inspiration.",
+      "date": "2025-03-08",
+      "cover": "/images/biratnagar/frontpage.jpg",
+      "images": ["/images/biratnagar/frontpage.jpg"]
+    },
+    {
+      "id": "blood-donation-apr-2025",
+      "title": "Blood Donation Camp April 2025",
+      "description": "A noble initiative organized by local devotees.",
+      "date": "2025-04-14",
+      "cover": "/images/biratnagar/sri-sri-thakur-anukulchandra-utsav-biratnagar-2.jpg",
+      "images": ["/images/biratnagar/frontpage.jpg"]
+    },
+    {
+      "id": "health-awareness-2025",
+      "title": "Health Awareness Seminar 2025",
+      "description": "Doctors and speakers shared wellness knowledge.",
+      "date": "2025-05-10",
+      "cover": "/images/biratnagar/frontpage.jpg",
+      "images": ["/images/biratnagar/frontpage.jpg"]
+    },
+    {
+      "id": "summer-youth-camp-2025",
+      "title": "Summer Youth Camp 2025",
+      "description": "A dynamic retreat involving discussion and sports.",
+      "date": "2025-06-05",
+      "cover": "/images/biratnagar/frontpage.jpg",
+      "images": ["/images/biratnagar/frontpage.jpg"]
+    },
+    {
+      "id": "guru-purnima-2025",
+      "title": "Guru Purnima Celebration 2025",
+      "description": "Offering of gratitude and devotion to the Living Ideal.",
+      "date": "2025-07-10",
+      "cover": "/images/biratnagar/frontpage.jpg",
+      "images": ["/images/biratnagar/frontpage.jpg"]
+    },
+    {
+      "id": "independence-day-2025",
+      "title": "Independence Day 2025",
+      "description": "Flag hoisting and patriotic songs.",
+      "date": "2025-08-15",
+      "cover": "/images/biratnagar/frontpage.jpg",
+      "images": ["/images/biratnagar/frontpage.jpg"]
+    },
+    {
+      "id": "janmastami-2025",
+      "title": "Janmastami Festival 2025",
+      "description": "A delightful evening filled with devotion and joy.",
+      "date": "2025-09-06",
+      "cover": "/images/biratnagar/sri-sri-thakur-anukulchandra-utsav-biratnagar.jpg",
+      "images": ["/images/biratnagar/frontpage.jpg"]
+    },
+    {
+      "id": "autumn-utsav-2025",
+      "title": "Autumn Utsav 2025",
+      "description": "Grand spiritual gathering of devotees across Nepal.",
+      "date": "2025-10-05",
+      "cover": "/images/biratnagar/frontpage.jpg",
+      "images": ["/images/biratnagar/frontpage.jpg"]
+    },
+    {
+      "id": "seva-week-oct2025",
+      "title": "Seva Week October 2025",
+      "description": "Week‑long volunteer service activities and lectures.",
+      "date": "2025-10-22",
+      "cover": "/images/biratnagar/frontpage.jpg",
+      "images": ["/images/biratnagar/frontpage.jpg"]
+    },
+    {
+      "id": "devotee-meet-oct2025",
+      "title": "All Devotees Meet 2025",
+      "description": "Closing event of the year bringing everyone together.",
+      "date": "2025-10-30",
+      "cover": "/images/biratnagar/sri-sri-thakur-anukulchandra-shova-yatra-biratnagar.jpg",
+      "images": ["/images/biratnagar/frontpage.jpg"]
+    }
+  ]
+}

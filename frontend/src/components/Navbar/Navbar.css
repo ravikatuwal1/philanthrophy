@@ -1,0 +1,122 @@
+.nav { 
+    background: var(--white); 
+    border-bottom: 1px solid var(--color-muted);
+}
+.nav-inner {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 12px 0;
+}
+.logo { height: 48px; }
+.nav-links a {
+    margin-left: 18px;
+    color: var(--text);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#navbar2 {
+    background: var(--white);
+    position: fixed;
+    top: 35px; /* Height of navbar1 */
+    width: 100%;
+    z-index: 1030;
+}
+
+.navbar {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+.navbar-nav .nav-link {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    font-size: 0.9rem;
+}
+
+.logo-img {
+    width: 75px;
+    height: 75px;
+}
+
+.nav-link-custom {
+    color: var(--color-heading);
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+.nav-link-custom:hover {
+    color: var(--color-primary-600);
+}
+
+/* Sky-blue chip highlight (now using your brand blue) */
+:root {
+    --chip-rgb: 23 102 163;  /* matches --color-primary */
+    --chip-radius: 1px;
+    --chip-pad-y: 0.45rem;
+    --chip-pad-x: 0.75rem;
+}
+
+/* Base link and dropdown toggle */
+#navbar2 .navbar-nav .nav-link,
+#navbar2 .navbar-nav .dropdown-toggle {
+    position: relative;
+    border-radius: var(--chip-radius);
+    padding: var(--chip-pad-y) var(--chip-pad-x);
+    margin: 0 0.125rem;
+    color: inherit; /* keep your text color */
+    transition: background-color 160ms ease, color 160ms ease, box-shadow 160ms ease;
+    border: 1px solid transparent; /* keeps layout stable when bg shows */
+}
+
+/* Hover: very light brand blue tint */
+#navbar2 .navbar-nav .nav-link:hover,
+#navbar2 .navbar-nav .dropdown-toggle:hover {
+    background-color: rgb(var(--chip-rgb) / 0.12);
+    box-shadow:
+        0 1px 2px rgb(var(--chip-rgb) / 0.06),
+        0 4px 12px rgb(var(--chip-rgb) / 0.08);
+    color: inherit; /* keep text dark */
+}
+
+/* Active/current route: a little stronger tint */
+#navbar2 .navbar-nav .nav-link.active,
+#navbar2 .navbar-nav .dropdown-toggle.active {
+    background-color: rgb(var(--chip-rgb) / 0.18);
+    box-shadow:
+        0 1px 2px rgb(var(--chip-rgb) / 0.06),
+        0 6px 16px rgb(var(--chip-rgb) / 0.10);
+    color: inherit;
+}
+
+/* Keyboard focus ring (optional) */
+#navbar2 .navbar-nav .nav-link:focus-visible,
+#navbar2 .navbar-nav .dropdown-toggle:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgb(var(--chip-rgb) / 0.28);
+}
+
+/* Dropdown menu and items to match the vibe */
+#navbar2 .dropdown-menu {
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+#navbar2 .dropdown-menu .dropdown-item {
+    border-radius: 8px;
+    transition: background-color 140ms ease, color 140ms ease;
+}
+
+#navbar2 .dropdown-menu .dropdown-item:hover,
+#navbar2 .dropdown-menu .dropdown-item.active,
+#navbar2 .dropdown-menu .dropdown-item:active {
+    background-color: rgb(var(--chip-rgb) / 0.14);
+    color: inherit;
+}
+
+.navbar-brand .fs-5 {
+  color: var(--color-heading) !important;
+}

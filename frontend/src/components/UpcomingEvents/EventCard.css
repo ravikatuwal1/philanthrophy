@@ -1,0 +1,39 @@
+.event-card {
+  border: 1px solid var(--color-muted);
+  border-radius: var(--radius);
+  background: var(--white);
+  box-shadow: 0 2px 8px rgba(23, 102, 163, 0.06);
+  transition: transform 0.18s, box-shadow 0.18s;
+}
+
+.event-card:hover {
+  transform: translateY(-4px) scale(1.025);
+  box-shadow: 0 8px 24px rgba(23, 102, 163, 0.13);
+  border-color: var(--color-primary-600);
+}
+
+.event-card .card-img-top {
+  border-radius: calc(var(--radius) - 2px) calc(var(--radius) - 2px) 0 0;
+  height: 200px;
+  object-fit: cover;
+  object-position: top;
+  background: var(--color-secondary);
+}
+
+.event-card .card-title {
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.event-card .bi {
+  color: var(--color-primary-600);
+  vertical-align: -0.1em;
+  margin-right: 0.2em;
+}
+
+.event-card p {
+  color: var(--text-muted);
+  font-size: 0.98rem;
+  margin-bottom: 0.5rem;
+}

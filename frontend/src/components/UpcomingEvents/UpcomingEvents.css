@@ -1,0 +1,40 @@
+.event-container {
+    max-width: var(--max-width);
+    margin: 25px auto;
+    background-color: var(--white);
+    padding: 36px 24px 36px 24px; /* more vertical and horizontal padding */
+    border-radius: var(--radius);
+    box-shadow: 0 2px 8px rgba(23, 102, 163, 0.08);
+    overflow: hidden;
+}
+
+.event-container h2 {
+    color: var(--color-heading);
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    margin-bottom: 2.2rem;
+    margin-top: 0.5rem; /* add a little space at the top */
+    text-align: center;
+}
+
+.event-container .row {
+    margin-bottom: 2.5rem; /* space between cards and button */
+}
+
+.event-container .btn,
+.event-container button {
+    margin-bottom: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.event-container img {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 350px;
+    height: 250px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: calc(var(--radius) - 2px);
+    box-shadow: 0 2px 8px rgba(23, 102, 163, 0.06);
+}

@@ -1,0 +1,60 @@
+:root {
+  --color-primary: #1766a3;      /* Main brand blue */
+  --color-primary-600: #2f79af;  /* Slightly lighter blue for hover */
+  --color-accent: #185ca6;       /* Accent blue for highlights */
+  --color-secondary: #f4f6f8;    /* Light background */
+  --color-muted: #a3c3db;        /* Muted blue for borders, subtle bg */
+  --color-heading: #143d59;      /* Dark blue for headings, footer */
+  --white: #fff;
+  --text: #143d59;               /* Use dark blue for main text */
+  --text-muted: #6b7280;         /* Muted text */
+  --max-width: 1200px;
+  --radius: 8px;
+  --header-height: 85px;
+}
+
+/* global resets */
+html, body, #root { height: 100%; }
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  color: var(--text);
+  background: var(--color-secondary);
+  padding-top: var(--header-height);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 16px;
+}
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover, a:focus {
+  color: var(--color-primary-600);
+  text-decoration: underline;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-heading);
+  font-weight: 800;
+  margin-top: 0;
+}
+.page-title {
+  color: var(--color-heading);
+  font-size: clamp(2rem, 4vw, 2.5rem);
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+.page-subtitle {
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  margin: 6px 0 0;
+}
+
+@media (max-width: 992px) {
+:root { --header-height: 100px; }
+}
